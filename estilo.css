@@ -1,0 +1,18 @@
+
+.grade {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:orange;
+    padding:10px;
+    gap:5px;
+}
+.grade > div{
+    background-color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+.grade > header{
+grid-column-start:1;
+grid-column-end:4;
+}
